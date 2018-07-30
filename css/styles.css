@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+.row {
+    width: 100%;
+}
+
+div {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+div.default {
+    background-color: gray;
+    margin-right: auto;
+    margin-left: auto;
+    height: 150px;
+    width: 90%;
+    border: 1px solid black;
+}
+
+header {
+    background-color: white;
+    width: 20%;
+    float: right;
+    text-align: center;
+    border: 0px 0px 1px 1px solid black;
+}
+
+@media (min-width: 992px) {
+    .col-lg {
+        float: left;
+        width: 33.33%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md {
+        float: left;
+        width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-sm {
+        float: left;
+        width: 100%;
+    }
+}
