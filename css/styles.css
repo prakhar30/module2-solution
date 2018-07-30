@@ -15,6 +15,12 @@ div {
     margin-bottom: 20px;
 }
 
+p {
+    margin-top: 35px;
+    margin-left: 10px;
+    width: 95%;
+}
+
 div.default {
     background-color: gray;
     margin-right: auto;
