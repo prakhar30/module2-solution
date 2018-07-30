@@ -38,6 +38,18 @@ header {
     border: 0px 0px 1px 1px solid black;
 }
 
+header.one {
+    background-color: pink;
+}
+
+header.two {
+    background-color: lightblue;
+}
+
+header.three {
+    background-color: lightgreen;
+}
+
 @media (min-width: 992px) {
     .col-lg {
         float: left;
